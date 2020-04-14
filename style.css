@@ -1,6 +1,6 @@
-input {
+/* input {
     display: none;
-}
+} */
 
 input[type=radio]:checked + img {
     transform: rotate(5deg);
