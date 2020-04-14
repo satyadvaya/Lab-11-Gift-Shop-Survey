@@ -1,0 +1,15 @@
+input {
+    display: none;
+}
+
+input[type=radio]:checked + img {
+    transform: rotate(5deg);
+    border: solid 3px red;
+}
+
+img {
+    border: solid 3px black;
+    width: 200px;
+    height: 200px;
+    transition: all .2s ease-in-out;
+}
