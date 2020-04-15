@@ -1,4 +1,4 @@
-export const giftData = [
+export const displayData = [
     {
         id: 'bag',
         name: 'Bag',
