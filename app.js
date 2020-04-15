@@ -6,9 +6,9 @@ const displayName = document.getElementById('name');
 const displayRadio = document.querySelectorAll('input');
 const nextButton = document.getElementById('next-button');
 
-const randomNumber1 = Math.floor(Math.random() * 20 + 1);
-const randomNumber2 = Math.floor(Math.random() * 20 + 1);
-const randomNumber3 = Math.floor(Math.random() * 20 + 1);
+const randomNumber1 = Math.floor(Math.random() * 20);
+const randomNumber2 = Math.floor(Math.random() * 20);
+const randomNumber3 = Math.floor(Math.random() * 20);
 
 const display1 = displayData[randomNumber1].image;
 const display2 = displayData[randomNumber2].image;
