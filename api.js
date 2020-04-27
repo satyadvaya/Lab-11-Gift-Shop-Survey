@@ -57,7 +57,7 @@ export const displayData = [
     {
         id: 'pet-sweep',
         name: 'Pet Sweep',
-        image: '../assets/pet-sweep.png'
+        image: '../assets/pet-sweep.jpg'
     },
     {
         id: 'scissors',
@@ -72,7 +72,7 @@ export const displayData = [
     {
         id: 'sweep',
         name: 'Sweep',
-        image: '../assets/sweep.jpg'
+        image: '../assets/sweep.png'
     },
     {
         id: 'tauntaun',

@@ -1,7 +1,7 @@
-export function findById(array, id) {
+export function findById(id, displayData) {
 
-    for (let i = 0; i < array.length; i++) {
-        const item = array[i];
+    for (let i = 0; i < displayData.length; i++) {
+        const item = displayData[i];
         if (item.id === id) {
             return item;
         }
